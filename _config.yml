@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "ko-KO"
+locale                   : "ko-KR"
 title                    : "Donghoon's Dev Blog"
 title_separator          : "-"
 name                     : "Donghoon Lee"
@@ -18,7 +18,7 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
@@ -50,7 +50,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : true # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -62,7 +62,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Donghoon Lee"
-  avatar           : "bio-photo.jpg"
+  avatar           : "profile.jpg"
   bio              : "I am an amazing person."
   location         : "Uijeongbu, Kyungkido"
   email            :
@@ -95,6 +95,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
